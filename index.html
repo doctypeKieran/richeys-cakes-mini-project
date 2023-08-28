@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Richey's Cakes, providing the most scrumptious desserts since 2023."
+    />
+    <meta name="keywords" content="cakes, cake shop, cafe, coffee cake" />
+    <meta name="author" content="Richey's Cakes" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Icons for menu icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/52cf2b10ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Richey's Cakes</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="home" class="text-center page-header">
+      <div class="vertical-center">
+        <h1>Richey's Cakes</h1>
+        <p>Providing the most scrumptious desserts since 2023.</p>
+      </div>
+    </header>
+
+    <!-- Navbar (Desktop) -->
+    <nav class="nav-desktop">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#opening-times">Opening Times</a>
+      <a href="#user-reviews">User Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="">Win Free Cake!</a>
+    </nav>
+
+    <!-- Navbar (Mobile) -->
+    <nav id="mobile-navbar" class="nav-mobile">
+      <a class="mobile-nav-link" href="#home">Home</a>
+      <a class="mobile-nav-link" href="#menu">Menu</a>
+      <a class="mobile-nav-link" href="#opening-times">Opening Times</a>
+      <a class="mobile-nav-link" href="#user-reviews">User Reviews</a>
+      <a class="mobile-nav-link" href="#contact">Contact</a>
+      <a class="mobile-nav-link" href="">Win Free Cake!</a>
+    </nav>
+    <span id="hamburger-menu" class="material-symbols-outlined">menu</span>
+
+    <main>
+      <!-- Why Richey's Cakes -->
+      <section class="why-richeys-cakes-section">
+        <div class="text-center">
+          <h2 class="section-header">Why Richey's Cakes?</h2>
+        </div>
+
+        <div class="section-flex">
+          <div class="why-richeys-cakes-box" id="cakes-box-left">
+            <h3>The Cake Connoisseur</h3>
+            <p>
+              When it comes to cakes, Richey knows the score. An admirer of all
+              things crumbly, flaky and sweet, our cakes come with the approval
+              of the man himself.
+            </p>
+          </div>
+
+          <div class="why-richeys-cakes-box">
+            <h3>Made With Love</h3>
+            <p>
+              Our cakes are hand crafted and sprinkled with the richest
+              ingredient there is: love! Don't worry. As cheesy as we are, you
+              won't find any cheese in our cakes... except for our cheesecake.
+            </p>
+          </div>
+
+          <div class="why-richeys-cakes-box">
+            <h3>Approved By The Best</h3>
+            <p>
+              Every cake has been tried, tested and approved by the best of the
+              best: Richey's very own students. Don't believe us?
+              <a href="#user-reviews">Click here to read our user reviews.</a>
+            </p>
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <!-- Menu -->
+      <section id="menu" class="menu-section">
+        <div class="text-center">
+          <h2 class="section-header">Menu</h2>
+          <h3>View Our Featured Cakes</h3>
+        </div>
+        <a href="">See our full menu</a>
+
+        <!-- Menu display: grid; -->
+        <div class="menu-grid">
+          <!-- First row of 4 items -->
+          <div class="menu-grid-item">
+            <h3>Chocolate Cake</h3>
+            <img
+              src="./media/images/cakes/chocolate-cake.jpg"
+              alt="A chocolate cake"
+            />
+            <hr class="menu-grid-item-hr" />
+            <div class="menu-grid-item-info">
+              <p>Rating: &#9733;&#9733;&#9733;&#9733;</p>
+              <p>Price: £3.49</p>
+            </div>
+          </div>
+
+          <div class="menu-grid-item">
+            <h3>Red Velvet Cake</h3>
+            <img
+              src="./media/images/cakes/velvet-cake.jpg"
+              alt="A red velvet cake"
+            />
+            <hr class="menu-grid-item-hr" />
+            <div class="menu-grid-item-info">
+              <p>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p>Price: £3.99</p>
+            </div>
+          </div>
+
+          <div class="menu-grid-item">
+            <h3>Carrot Cake</h3>
+            <img
+              src="./media/images/cakes/carrot-cake.jpg"
+              alt="A carrot cake"
+            />
+            <hr class="menu-grid-item-hr" />
+            <div class="menu-grid-item-info">
+              <p>Rating: &#9733;&#9733;&#9733;</p>
+              <p>Price: £2.99</p>
+            </div>
+          </div>
+
+          <div class="menu-grid-item">
+            <h3>Lemon Cake</h3>
+            <img src="./media/images/cakes/lemon-cake.jpg" alt="A lemon cake" />
+            <hr class="menu-grid-item-hr" />
+            <div class="menu-grid-item-info">
+              <p>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p>Price: £3.49</p>
+            </div>
+          </div>
+
+          <!-- Second row of 4 items -->
+          <div class="menu-grid-item approved">
+            <img
+              src="./media/images/approval.png.png"
+              alt=""
+              id="seal-of-approval"
+            />
+            <h3>Coffee Cake</h3>
+            <img
+              src="./media/images/cakes/coffee-cake.jpg"
+              alt="A coffee cake"
+            />
+            <hr class="menu-grid-item-hr" />
+            <div class="menu-grid-item-info">
+              <p>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p>Price: £4.99</p>
+            </div>
+          </div>
+
+          <div class="menu-grid-item">
+            <h3>Black Forest Cake</h3>
+            <img
+              src="./media/images/cakes/black-forest-cake.jpg"
+              alt="A black forest cake"
+            />
+            <hr class="menu-grid-item-hr" />
+            <div class="menu-grid-item-info">
+              <p>Rating: &#9733;&#9733;&#9733;&#9733;</p>
+              <p>Price: £4.49</p>
+            </div>
+          </div>
+
+          <div class="menu-grid-item">
+            <h3>Strawberry Cake</h3>
+            <img
+              src="./media/images/cakes/strawberry-cake.jpg"
+              alt="A strawberry cake"
+            />
+            <hr class="menu-grid-item-hr" />
+            <div class="menu-grid-item-info">
+              <p>Rating: &#9733;&#9733;&#9733;</p>
+              <p>Price: £2.99</p>
+            </div>
+          </div>
+
+          <div class="menu-grid-item">
+            <h3>Cookies & Cream Cake</h3>
+            <img
+              src="./media/images/cakes/cookies-and-cream-cake.jpg"
+              alt="A lemon cake"
+            />
+            <hr class="menu-grid-item-hr" />
+            <div class="menu-grid-item-info">
+              <p>Rating: &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p>Price: £5.49</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <!-- Opening Times -->
+      <section id="opening-times" class="opening-times-section">
+        <div class="text-center">
+          <h2 class="section-header">Opening Times</h2>
+        </div>
+
+        <div class="opening-times-box">
+          <div class="opening-times-flex-group">
+            <p>Mon - Thurs</p>
+            <p>08:00 - 17:00</p>
+          </div>
+          <div class="opening-times-flex-group">
+            <p>Fri - Sat</p>
+            <p>08:00 - 19:00</p>
+          </div>
+          <div class="opening-times-flex-group">
+            <p>Sun</p>
+            <p>10:00 - 16:00</p>
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <section id="user-reviews" class="user-reviews-section">
+        <div class="text-center">
+          <h2 class="section-header">User Reviews</h2>
+        </div>
+
+        <div class="user-reviews-grid-container">
+          <div class="user-review">
+            <p>"Simply the best cakes on the planet. Go Richey!"</p>
+            <div class="user-review-information">
+              <img
+                class="user-avatar-img"
+                src="./media/images/user-avatar.png"
+                alt=""
+              />
+              <p>Johan H.</p>
+            </div>
+          </div>
+
+          <div class="user-review">
+            <p>
+              "I can't get over how delicious they are. I love the coffee cake!"
+            </p>
+            <div class="user-review-information">
+              <img
+                class="user-avatar-img"
+                src="./media/images/user-avatar.png"
+                alt=""
+              />
+              <p>Alexander S.</p>
+            </div>
+          </div>
+
+          <div class="user-review">
+            <p>
+              "I can no longer buy cake from a shop, because they just don't
+              compare."
+            </p>
+            <div class="user-review-information">
+              <img
+                class="user-avatar-img"
+                src="./media/images/user-avatar.png"
+                alt=""
+              />
+              <p>Charlie S.</p>
+            </div>
+          </div>
+
+          <div class="user-review">
+            <p>
+              "I've spent all my money at Richey's cake shop... but I still want
+              more!"
+            </p>
+            <div class="user-review-information">
+              <img
+                class="user-avatar-img"
+                src="./media/images/user-avatar.png"
+                alt=""
+              />
+              <p>Stacey R.</p>
+            </div>
+          </div>
+
+          <div class="user-review">
+            <p>"I came for a cake, and I left with 31 carrot cakes. Yum!"</p>
+            <div class="user-review-information">
+              <img
+                class="user-avatar-img"
+                src="./media/images/user-avatar.png"
+                alt=""
+              />
+              <p>Hibo I.</p>
+            </div>
+          </div>
+
+          <div class="user-review">
+            <p>"If you need cake, Richey's your guy."</p>
+            <div class="user-review-information">
+              <img
+                class="user-avatar-img"
+                src="./media/images/user-avatar.png"
+                alt=""
+              />
+              <p>Dylan S.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <p>Get In Touch:</p>
+      <div class="contact-info-group">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.twitter.com/" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+      <span>Copyright &copy; 2023</span>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
