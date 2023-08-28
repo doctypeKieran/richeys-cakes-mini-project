@@ -1,4 +1,4 @@
-# Richeys Cakes
+# Richey's Cakes
 ## (WIP) Mini project
 ### This mini project practices website layout, design, and functionality.
 
